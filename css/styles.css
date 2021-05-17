@@ -1,3 +1,12 @@
+:root{
+    --accent-color: #2196F3;
+}
+
+body {
+    font-family: Roboto;
+    color: #212121;
+}
+
 .list {
     list-style: none;
 }
@@ -15,7 +24,6 @@
     }
 
 .menu-link {
-    font-family: Roboto;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -24,11 +32,10 @@
 
 .menu-link:hover,
 .menu-link:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .mail-link {
-    font-family: Roboto;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -37,11 +44,10 @@
 
 .mail-lin:hover,
 .mail-link:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .tel-link {
-    font-family: Roboto;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -50,29 +56,93 @@
 
 .tel-link:hover,
 .tel-link:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
-h1 {
-    font-family: Roboto;
+.main-title {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
 }
 
 .modal-btn {
-    font-family: Roboto;
     font-weight: bold;
     font-size: 16px;
     line-height: 1.87;
     color: #FFFFFF;
-    background: #2196F3;
+    background: var(--accent-color);
+    cursor: pointer;
 }
 
 .modal-btn:hover,
 .modal-btn:focus {
     background: #188CE8;
+}
+
+.disc-title {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 1.14;
+    text-transform: uppercase;
+}
+
+.disc-paragraph {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.about-title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.31;
+    letter-spacing: 0.03em;
+}
+
+.team-title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+}
+
+.team-memder-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+}
+
+.team-memder-prof {
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.map-link {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 0.07;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.mail-link {
+    font-size: 14px;
+    line-height: 0.07;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.mail-link {
+    font-size: 14px;
+    line-height: 0.07;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
 }
