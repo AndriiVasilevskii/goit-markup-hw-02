@@ -125,22 +125,24 @@ body {
     color: #757575;
 }
 
-.map-link {
+.map-footer-link {
+    font-family: Roboto;
+    font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 0.07;
+    line-height: 24px;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: #000000;   
 }
 
-.mail-link {
+.mail-footer-link {
     font-size: 14px;
     line-height: 0.07;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
 
-.mail-link {
+.tel-footer-link {
     font-size: 14px;
     line-height: 0.07;
     letter-spacing: 0.03em;
