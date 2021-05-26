@@ -82,10 +82,12 @@ body {
 }
 
 .modal-btn {
+    font-family: Roboto, sans-serif;
     font-weight: bold;
     font-size: 16px;
     line-height: 1.87;
     color: #FFFFFF;
+    letter-spacing: 0.06em;
     background: var(--accent-color);
     cursor: pointer;
 }
@@ -140,6 +142,7 @@ body {
 }
 
 .partfolio-btn {
+    font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
